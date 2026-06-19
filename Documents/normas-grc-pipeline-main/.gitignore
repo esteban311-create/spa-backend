@@ -1,0 +1,18 @@
+# Entorno 
+.env 
+
+# Datos generados 
+data/raw/ 
+data/enriched/ 
+data/lz_output/ 
+logs/ 
+
+# Python 
+__pycache__/ 
+*.py[cod] 
+.ipynb_checkpoints/ 
+.venv/ 
+venv/ 
+
+# Modelos descargados (se regeneran con pip) 
+# ~/.cache/huggingface  ← no está en el proyecto, no hace falta ignorarlo 

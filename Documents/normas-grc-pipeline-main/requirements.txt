@@ -1,0 +1,23 @@
+# ─── Scraping ─── 
+requests>=2.31.0 
+beautifulsoup4>=4.12.0 
+lxml>=5.0.0 
+playwright>=1.40.0 
+
+# ─── Extracción de PDF ─── 
+pdfplumber>=0.10.0 
+PyMuPDF>=1.23.0 
+
+# ─── Datos / Excel ─── 
+openpyxl>=3.1.0 
+pandas>=2.1.0 
+
+# ─── NLP local (sin API externa, 100 % offline después de la primera descarga) ─── 
+sumy>=0.9.0                     # resumen extractivo (LexRank / LSA) 
+spacy>=3.7.0                    # tokenización y NER en español 
+sentence-transformers>=2.7.0    # clasificación semántica por embeddings 
+
+# ─── Infraestructura ─── 
+python-dotenv>=1.0.0 
+loguru>=0.7.0 
+tenacity>=8.2.0 
